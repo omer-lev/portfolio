@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="icon-desc">
                     <div>
                         <h3>ADDRESS</h3>
-                        <p>Shvil Klipot HaTapuzim 18<br /> Bnei Zion, IL</p>
+                        <p>Vaitsman 53, Bat Yam, IL</p>
                     </div>
 
                     <div>
