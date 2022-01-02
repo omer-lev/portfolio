@@ -1,0 +1,48 @@
+.portfolio {
+    height: 100vh;
+    padding-top: 12vh;
+
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(31, 34, 51);
+}
+
+.portfolio h1 {
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.portfolio .tabs {
+    width: 25%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .tabs p {
+    width: 33%;
+    padding-bottom: 4rem;
+    font-size: .9rem;
+    color: gray;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.portfolio .tabs p:nth-child(2) {
+    color: whitesmoke;
+}
+
+.portfolio .previews img {
+    width: 25%;
+    margin: 1rem 1.5rem;
+
+    opacity: 80%;
+    cursor: pointer;
+    box-shadow: 0 0 7px rgba(245, 245, 245, 0.5);
+}
+
+.portfolio .previews img:hover {
+    transform: scale(102%);
+    opacity: 100%;
+}

@@ -1,0 +1,95 @@
+.contact {
+    height: 100vh;
+    padding-top: 12vh;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(17, 21, 34);
+}
+
+.contact .panel {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.contact .panel .icons svg {
+    width: 33%;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    color: rgb(71, 211, 71);
+}
+
+.contact .panel .icon-desc div {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.contact .panel .icon-desc div h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact .panel .icon-desc div p {
+    font-size: .9rem;
+    color: gray;
+}
+
+.contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact form .inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact form .inputs input {
+    width: 50%;
+    padding: .7rem .6rem;
+
+    color: whitesmoke;
+    background-color: rgb(36, 39, 51);
+    border: none;
+    border-radius: .2rem;
+}
+
+.contact form textarea {
+    width: 100%;
+    height: 15vh;
+    padding: .7rem .6rem;
+
+    color: whitesmoke;
+    background-color: rgb(36, 39, 51);
+    border: none;
+    border-radius: .2rem;
+    resize: none;
+}
+
+.contact form .inputs input:focus, .contact form textarea:focus {
+    outline: rgb(71, 211, 71) solid 1px;
+}
+
+.contact form button {
+    width: 100%;
+    padding: .6rem 0;
+
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    background-color: rgb(71, 211, 71);
+
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: rgba(71, 211, 71, 0.774);
+}

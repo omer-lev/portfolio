@@ -1,0 +1,28 @@
+.header {
+    height: 100vh;
+    padding: 30vh 5rem 0 5rem;
+
+    background: url('../../../img/ryan.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1 {
+    display: inline-block;
+    margin-bottom: 1rem;
+
+    font-size: 5rem;
+    color: rgb(224, 224, 224);
+}
+
+.header h3 {
+    display: inline-block;
+    padding: .3rem 1rem;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(68, 202, 68);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.226);
+}

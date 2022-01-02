@@ -1,0 +1,26 @@
+.Footer {
+    width: 100%;
+    padding: 2rem 10%;
+    position: absolute;
+    bottom: -300%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgb(29, 34, 44);
+}
+
+.Footer p {
+    font-weight: 500;
+}
+
+.Footer .icons svg {
+    margin-left: 1.2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.Footer .icons svg:hover {
+    opacity: 100%;
+}
