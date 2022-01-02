@@ -16,6 +16,10 @@
     color: rgb(224, 224, 224);
 }
 
+.header h1 span {
+    color: #44ca44;
+}
+
 .header h3 {
     display: inline-block;
     padding: .3rem 1rem;
